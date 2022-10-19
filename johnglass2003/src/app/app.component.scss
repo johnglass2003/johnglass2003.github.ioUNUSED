@@ -125,8 +125,7 @@ li { line-height: 18px; margin-bottom: 12px; }
     background-color: #24305E;
      color: #893294;
  }
- .pagination .prev, .pagination .next {}
- 
+
  img {
     max-width: 100%;
     height: auto;
@@ -515,7 +514,6 @@ body { background: #A8D0E6; }
     text-transform: uppercase;
     letter-spacing: 5px;
     margin: 0 auto;
-    z-index: 100;
     position: fixed;
     left: 0;
     top: 0;
@@ -554,6 +552,11 @@ body { background: #A8D0E6; }
  ul#nav li a:active { background-color: transparent !important; }
  ul#nav li.current a { color: #F76C6C; }
 
+
+ .nav--hidden {
+    transform: translateY(calc(-1 * var(--nav-height)));
+    box-shadow: none;
+  }
  
 .banner__content {
     padding: 5px;
