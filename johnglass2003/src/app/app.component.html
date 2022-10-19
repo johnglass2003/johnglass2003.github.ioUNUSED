@@ -2,79 +2,38 @@
 <html class="no-js" lang="en">
 <head>
 
-   <!--- Basic Page Needs
-   ================================================== -->
    <meta charset="utf-8">
 	<title>John's Personal Website</title>
 	<meta name="description" content="">
 	<meta name="author" content="">
 
-   <!-- Mobile Specific Metas
-   ================================================== -->
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
-	<!-- CSS
-    ================================================== -->
    <link rel="stylesheet" href="app.component.scss">
 
-   <!-- Script
-   ================================================== -->
-
-   <!-- Icons
-	================================================== -->
-	<link rel="shortcut icon" href="..\assets\ocKu7OUcxegAAAABJRU5ErkJggg==.png" >
+	<link rel="shortcut icon" href="..\assets\ocKu7OUcxegAAAABJRU5ErkJggg==.png">
    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
-   <!-- Global site tag (gtag.js) - Google Analytics
-   ================================================== -->
    <script async src="https://www.googletagmanager.com/gtag/js?id=G-LFSK6W596W"></script>
    <script>
      window.dataLayer = window.dataLayer || [];
      function gtag(){dataLayer.push(arguments);}
      gtag('js', new Date());
-
      gtag('config', 'G-LFSK6W596W');
    </script>
-
 </head>
-
 <body>
-
-   <!-- Header
-   ================================================== -->
    <header id="home">
-
       <nav id="nav-wrap">
-
-         <a class="mobile-btn" href="#nav-wrap" title="Show navigation">Show navigation</a>
-	      <a class="mobile-btn" href="#" title="Hide navigation">Hide navigation</a>
-
          <ul id="nav" class="nav">
-            <li class="current"><a class="smoothscroll" href="#home">Home</a></li>
-            <li><a class="smoothscroll" href="#about">About</a></li>
-	         <li><a class="smoothscroll" href="#resume">Resume</a></li>
-            <li><a class="smoothscroll" href="#portfolio">Projects</a></li>
-            <li><a class="smoothscroll" href="#activities">Activities</a></li>
-            <li><a class="smoothscroll" href="#stats">Statistics</a></li>
-            <li><a class="smoothscroll" href="#contact">Contact</a></li>
-         </ul> <!-- end #nav -->
-
-         <hr />
-
-         <div class="head_banner">
-            <div class="banner__content">
-               <div class="banner__text">
-                  Hi! Welcome to my website. Please <a href="https://www.linkedin.com/in/john-g-6860931a6/" target="_blank">connect</a> with me! 
-               </div>
-               <button class="banner__close">
-                  <span class="material-icons">close</span>
-               </button>
-               
-            </div> <!-- end #banner__content -->
-         </div>
-
-      </nav> <!-- end #nav-wrap -->
-
+            <li class="current"><a class="ss" href="#home">Home</a></li>
+            <li><a class="ss" href="#about">About</a></li>
+	         <li><a class="ss" href="#resume">Resume</a></li>
+            <li><a class="ss" href="#portfolio">Projects</a></li>
+            <li><a class="ss" href="#involvement">Involvement</a></li>
+            <li><a class="ss" href="#contact">Contact</a></li>
+         </ul>
+      </nav>
       <div class="row banner">
          <div class="banner-text">
             <h1 class="responsive-headline">John Glass</h1>
@@ -87,38 +46,23 @@
             </ul>
          </div>
       </div>
-
-      <p class="scrolldown">
-         <a class="smoothscroll" href="#about"><i class="icon-down-circle"></i></a>
+      <p class="ss">
+         <a class="ss" href="#about"><i class="icon-down-circle"></i></a>
       </p>
-
-   </header> <!-- Header End -->
-
-
-<!-- about section
-   ================================================== -->
+   </header>
    <section id="about">  
-
       <div class="row section-intro">
-         <div class="col-twelve">
-
+         <div class="colA">
             <h5>About</h5>
             <h1>Let me introduce myself.</h1>
-
             <div class="intro-info">
-
                <img src="images/profilepic.jpg" alt="Profile Picture">
-
                <p class="lead">I am a Computer Scientist and Electrical Engineer pursuing my Bachelor of Science degree at the University of Florida. I am a passionate person driven by a constant desire to learn and grow. My primary interests include software development, data science, machine learning and more! </p>
             </div>            
-
          </div>         
-      </div> <!-- /section-intro -->
-
+      </div> 
       <div class="row about-content">
-
-         <div class="col-six tab-full">
-
+         <div class="colB tab-full">
             <h3>Profile</h3>
             <p>I am a part-time data analyst open to all software engineering oppurtunities. If I'm a good fit, please contant me via <a href="mailto:sunnybd97@gmail.com">johnglass0904@gmail.com</a>.</p>
 
@@ -135,16 +79,11 @@
                   <strong>Email:</strong>
                   <span>johnglass0904@gmail.com</span>
                </li>
-
-            </ul> <!-- /info-list -->
-
+            </ul>
          </div>
-
-         <div class="col-six tab-full">
-
+         <div class="colB tab-full">
             <h3>Skills</h3>
             <p>I'm a driven teamworker equiped with a strong coding skill set. Below are highlights of my technical skills:</p>
-
             <ul class="skill-bars">
               <li>
                 <strong>C/C++</strong>
@@ -161,545 +100,247 @@
            <li>
             <strong>JavaScript ADD JS LIBRARIES AND FRAMEWORKS</strong>
          </li>
-
-               
-      
             </ul>  
          </div>
-
       </div>
-
       <div class="row button-section">
-         <div class="col-twelve">
-            <a href="#contact" title="Hire Me" class="button stroke smoothscroll">Hire Me</a>
+         <div class="colA">
+            <a href="#contact" title="Hire Me" class="button stroke ss">Hire Me</a>
             <a href="..\assets\resume.pdf" title="Download Resume" class="button button-primary">Download Resume</a>
          </div>         
       </div>
-   </section> <!-- /process-->    
-
-
-   <!-- Resume Section
-   ================================================== -->
+   </section>
    <section id="resume">
-
       <div class="row section-intro">
-         <div class="col-twelve">
-
+         <div class="colA">
             <h5>Resume</h5>
             <h1>More of my credentials.</h1>
-
             <p class="lead">Here are my work experiences and education.</p>
-
          </div>  
-      </div><!-- /section-intro -->
-
-      <!-- Work experience 
-      ----------------------------------------------- -->
-      <div class="row resume-timeline">
-
-         <div class="col-twelve resume-header">
-
+      </div>
+      <div class="row resume-exp">
+         <div class="colA resume-header">
             <h2>Work Experience</h2>
-
-         </div> <!-- /resume-header -->
-
-         <div class="col-twelve">
-
-            <div class="timeline-wrap">
-
-                <div class="timeline-block"> 
-
-                  <div class="timeline-ico">
-                     <i class="fa fa-briefcase"></i>
-                  </div>
-
-                  <div class="timeline-header">
+         </div> 
+         <div class="colA">
+            <div class="exp-wrap">
+                <div class="exp-block"> 
+                  <div class="exp-header">
                      <h3>Data Analyst</h3>
                      <p>May 2021 - Present</p>
                   </div>
-
-                  <div class="timeline-content">
+                  <div class="exp-content">
                      <h4>Mitchell Glass LLC</h4>
                      <p> Created a Python program that processes over 10,000+ data entries weekly, optimizing performance by 15%.
                      </p>
                   </div>
-
-               </div> <!-- /timeline-block -->
-
-               <div class="timeline-block"> 
-
-                  <div class="timeline-ico">
-                     <i class="fa fa-briefcase"></i>
-                  </div>
-
-                  <div class="timeline-header">
+               </div> 
+               <div class="exp-block"> 
+                  <div class="exp-header">
                      <h3>Full Stack Developer</h3>
                      <p>June 2020 - August 2020</p>
                   </div>
-
-                  <div class="timeline-content">
+                  <div class="exp-content">
                      <h4>Brick Top Holdings</h4>
                      <p> Designed Brick Top Holding's company website using HTML, CSS, and jQuery. I presented 5-10 protoypes a week to the CEO during the development process. After completing the website, I managed and updated it regularly for 5 months.
                      </p>
                   </div>
-
-               </div> <!-- /timeline-block -->
-
-
-               <div class="timeline-block"> 
-
-                  <div class="timeline-ico">
-                     <i class="fa fa-briefcase"></i>
-                  </div>
-
-                  <div class="timeline-header">
+               </div> 
+               <div class="exp-block"> 
+                  <div class="exp-header">
                      <h3>Environmental Software Engineering Intern</h3>
                      <p>August 2019 - January 2021</p>
                   </div>
-
-                  <div class="timeline-content">
+                  <div class="exp-content">
                      <h4>Museum of Discovery and Science</h4>
                      <p> I collaberatively researched environmental issues and solutions. My team and I were trained with C# to create 3D interactive augmented reality exhibits which maximized accessibility to 20+ museum exhibits.
                      </p>
                   </div>
-
-               </div> <!-- /timeline-block -->        
-
-         </div> <!-- /col-twelve -->
-         
-         <div class="col-twelve resume-header">
-
+               </div>
+         </div> 
+         <div class="colA resume-header">
             <h2>Background Education</h2>
-
-         </div> <!-- /resume-header -->
-
-         <div class="col-twelve">
-
+         </div>
+         <div class="colA">
             <div class="timeline-wrap">
-
                <div class="timeline-block">
-
                   <div class="timeline-ico">
                      <i class="fa fa-pencil"></i>
                   </div>
-
                   <div class="timeline-header">
                      <h3>Bachelor Degree</h3>
                      <p>August 2021 - May 2025</p>
                   </div>
-
                   <div class="timeline-content">
                      <h4>University of Florida</h4>
                      <p>Pursuing my Bachelor of Science degree majoring in Computer Science and minoring in Electrical Engineering. I am a member of Upsilon Pi Epsilon, Univeristy of Florida Association for Computer Machinery, and Society of Software Developers. Relevant Coursework includes: Data Structures and Algorithms, Programming Fundamentals II, Programming Language Concepts, and Introduction to Discrete Structures.</p>
                   </div>
-
-               </div> <!-- /timeline-block -->
-
-
-            </div> <!-- /timeline-wrap -->            
-
-         </div> <!-- /col-twelve -->
+               </div> 
+            </div>          
+         </div> 
         </div>
-      </div> <!-- /resume-timeline -->
+      </div>
    </section>
-
-
-      
-   <!-- Portfolio Section
-   ================================================== -->
    <section id="portfolio">
       <div class="row section-intro">
-         <div class="col-twelve">
-
+         <div class="colA">
             <h5>Projects</h5>
             <h1>Check out my <a href="https://github.com/johnglass2003" target="_blank">GitHub</a>! </h1>
-
          </div>  
-      </div><!-- /section-intro -->
-
+      </div>
       <div class="row">
-
          <div class="twelve columns collapsed">
-
-            <!-- portfolio-wrapper -->
             <div id="portfolio-wrapper" class="bgrid-quarters s-bgrid-thirds cf">
-
                   <div class="portfolio-block"> 
                   <div class="portfolio-ico">
                      <i class="fa fa-briefcase"></i>
                   </div>
-
                   <div class="portfolio-header">
                      <h3>GOOP</h3>
                      <p>Personal Game Development Project</p>
                   </div>
-
                   <div class="portfolio-content">
                      <h4><a href="https://github.com/johnglass2003/GOOPDemo" target="_blank">Check Me Out on GitHub!</a></h4>
                      <p>Rogue-Like Top-Down Arena Shooter!
                      </p>
                   </div>
                </div> 
-
             </div> <!-- portfolio-wrapper end -->
-
-         </div> <!-- twelve columns end -->
-
-
-         <!-- Modal Popup
-	      --------------------------------------------------------------- -->
-
-         <div id="modal-01" class="popup-modal mfp-hide">
-
-		      <img class="scale-with-grid" src="images/portfolio/modals/m-DoctorMi.png" alt="" />
-
-		      <div class="description-box">
-			      <h4>DoctorMi</h4>
-			      <p>iOS app that displays user health diagnosis info from breath analysis. Included features are daily info display, display option customization, showing other's info, and sharing one's health info.</p>
-               <span class="categories"><i class="fa fa-tag"></i>Swift, Xcode, iOS development</span>
-		      </div>
-
-            <div class="link-box">
-               <a href="https://github.com/swkang73/DoctorMi" target="_blank">Details</a>
-		         <a class="popup-modal-dismiss">Close</a>
+            <div id="portfolio-wrapper" class="bgrid-quarters s-bgrid-thirds cf">
+               <div class="portfolio-block"> 
+               <div class="portfolio-ico">
+                  <i class="fa fa-briefcase"></i>
+               </div>
+               <div class="portfolio-header">
+                  <h3>DailyDoodle</h3>
+                  <p>Drawing Web-App!</p>
+               </div>
+               <div class="portfolio-content">
+                  <h4><a href="https://github.com/johnglass2003/DailyDoodle" target="_blank">Check Me Out on GitHub!</a></h4>
+                  <p>This is a website that generates a new "doodle" every day that the user draws and completes. The user may download and upload their drawing to the website. This website is powered by React and Php!
+                  </p>
+               </div>
+            </div> 
+         </div>
+         <div id="portfolio-wrapper" class="bgrid-quarters s-bgrid-thirds cf">
+            <div class="portfolio-block"> 
+            <div class="portfolio-ico">
+               <i class="fa fa-briefcase"></i>
             </div>
-
-	      </div><!-- modal-01 End -->
-
-         <div id="modal-02" class="popup-modal mfp-hide">
-
-		      <img class="scale-with-grid" src="images/portfolio/modals/m-dnaplotlib.jpg" alt="" />
-
-		      <div class="description-box">
-			      <h4>dnaplotlib</h4>
-			      <p>Python package for visualizing genetic circuits. Updated the package to support rendering Synthetic Biology Open Visual 2 glyphs & visualization of non-dna components. Picture credit: 
-                  <a href="http://www.lavanguardia.com/ciencia/20170302/42478152571/sistema-opeativo-frasco-adn.html" target="_blank">lavanguardia news</a></p>
-               <span class="categories"><i class="fa fa-tag"></i>python, synthetic biology, Google, Code for Summer</span>
-		      </div>
-
-            <div class="link-box">
-               <a href="https://github.com/swkang73/dnaplotlib" target="_blank">Details</a>
-		         <a class="popup-modal-dismiss">Close</a>
+            <div class="portfolio-header">
+               <h3>VideoGameAnalyzer</h3>
+               <p>Collaberative Data Analyzer Project</p>
             </div>
-
-	      </div><!-- modal-02 End -->
-
-         <div id="modal-03" class="popup-modal mfp-hide">
-
-		      <img class="scale-with-grid" src="images/portfolio/modals/m-dotsaway.png" alt="" />
-
-		      <div class="description-box">
-			      <h4>Dotsaway</h4>
-			      <p>Startup for providing trekking route customized for user's outdoor experience level, fitness, weather, and view. Built user chat platform & final route popup box</p>
-               <span class="categories"><i class="fa fa-tag"></i>Branding, front-end development, javascript, css, html</span>
-		      </div>
-
-            <div class="link-box">
-               <a href="https://www.facebook.com/profile.php?id=100009680869808" target="_blank">Details</a>
-		         <a class="popup-modal-dismiss">Close</a>
+            <div class="portfolio-content">
+               <h4><a href="https://github.com/johnglass2003/VideoGameAnalyzer" target="_blank">Check Me Out on GitHub!</a></h4>
+               <p>C++ Collaborative Project That Analyzes Data On Video Games Based On Many Categories. This program compares the efficiency of different sorting and search algorithms.
+               </p>
             </div>
-
-	      </div><!-- modal-03 End -->
-
-         <div id="modal-04" class="popup-modal mfp-hide">
-
-		      <img class="scale-with-grid" src="images/portfolio/modals/m-sift.png" alt="" />
-
-		      <div class="description-box">
-			      <h4>SIFT</h4>
-			      <p>PCA analysis of Human Breath (HB) measured through Selected Ion Flow Tube-Mass Spectroscopy. Visualization of differences between individual breath through dimension reduction. Research in Gross Lab, Stanford Medical Center</p>
-               <span class="categories"><i class="fa fa-tag"></i>Photography</span>
-		      </div>
-
-            <div class="link-box">
-               <a href="https://github.com/swkang73/sift" target="_blank">Details</a>
-		         <a class="popup-modal-dismiss">Close</a>
-            </div>
-
-	      </div><!-- modal-04 End -->
-
-         <div id="modal-05" class="popup-modal mfp-hide">
-
-		      <img class="scale-with-grid" src="images/portfolio/modals/m-website.png" alt="" />
-
-		      <div class="description-box">
-			      <h4>Personal Website</h4>
-			      <p>Created own personal website for showing resume. Merged Ceeve and Kard platform from Styleshout. </p>
-               <span class="categories"><i class="fa fa-tag"></i>Webdesign, javascript, css, html</span>
-		      </div>
-
-            <div class="link-box">
-		         <a class="popup-modal-dismiss">Close</a>
-            </div>
-
-	      </div><!-- modal-05 End -->
-
-         <div id="modal-06" class="popup-modal mfp-hide">
-
-		      <img class="scale-with-grid" src="images/portfolio/modals/m-syz.png" alt="" />
-
-		      <div class="description-box">
-			      <h4>Sigma Psi Zeta Website</h4>
-			      <p>Updated website for Omicron Stanford Charter, Sigma Psi Zeta (SYZ). SYZ is the biggest Asian-interest sorority on campus. User traffic doubled during my time of development</p>
-               <span class="categories"><i class="fa fa-tag"></i>Web development, blog, activisim, asian-interest</span>
-		      </div>
-
-            <div class="link-box">
-               <a href="https://stanfordsyz.weebly.com/" target="_blank">Details</a>
-		         <a class="popup-modal-dismiss">Close</a>
-            </div>
-
-	      </div><!-- modal-06 End -->
-
-         <div id="modal-07" class="popup-modal mfp-hide">
-
-		      <img class="scale-with-grid" src="images/portfolio/modals/m-jellyfish.png" alt="" />
-
-		      <div class="description-box">
-			      <h4>Jellyfish Heavy Metal Adsorbent</h4>
-			      <p>Three years of wetlab research on developing novel heavy metal adsorbent out of jellyfish Chondroitin Sulfate. Patented on 2016, recognized with second place in Intel ISEF 2015.</p>
-               <span class="categories"><i class="fa fa-tag"></i>Biology, wetlab, patent</span>
-		      </div>
-
-            <div class="link-box">
-               <a href="https://www.societyforscience.org/content/press-room/intel-isef-2015-grand-award-winners" target="_blank">Details</a>
-		         <a class="popup-modal-dismiss">Close</a>
-            </div>
-
-	      </div><!-- modal-07 End -->
-
-         <div id="modal-08" class="popup-modal mfp-hide">
-
-		      <img class="scale-with-grid" src="images/portfolio/modals/m-ecig.png" alt="" />
-
-		      <div class="description-box">
-			      <h4>E-cigarette analysis</h4>
-			      <p>Analyzed different e-cigarettes chemicals through processing mass spectra data. Research in Gross Lab, Stanford Medical Center</p>
-               <span class="categories"><i class="fa fa-tag"></i>Mass Spectroscopy, research, python, data analysis</span>
-		      </div>
-
-            <div class="link-box">
-               <a href="https://github.com/swkang73/ecig" target="_blank">Details</a>
-		         <a class="popup-modal-dismiss">Close</a>
-            </div>
-
-	      </div><!-- modal-08 End -->
-
-
-      </div> <!-- row End -->
-
-   </section> <!-- Portfolio Section End-->
-
-   <!-- activities Section
-   ================================================== -->
-   <section id="activities">
-
+         </div> 
+      </div>
+   <div id="portfolio-wrapper" class="bgrid-quarters s-bgrid-thirds cf">
+      <div class="portfolio-block"> 
+      <div class="portfolio-ico">
+         <i class="fa fa-briefcase"></i>
+      </div>
+      <div class="portfolio-header">
+         <h3>johnglass2003.github.io</h3>
+         <p>The Personal Website You Are On Right Now!</p>
+      </div>
+      <div class="portfolio-content">
+         <h4><a href="https://github.com/johnglass2003/johnglass2003.github.io" target="_blank">Check Me Out on GitHub!</a></h4>
+         <p>Check out the source code I created for this website!
+         </p>
+      </div>
+   </div> 
+</div>
+         </div>
+      </div>
+   </section>
+   <section id="involvement">
       <div class="overlay"></div>
-
       <div class="row section-intro">
-         <div class="col-twelve">
-
-            <h5>Activities</h5>
-            <h1>My positions during undergraduate.</h1>
-
-            <p class="lead">Summary of my leadership & extracurricular activities</p>
-
+         <div class="colA">
+            <h5>Involvement</h5>
+            <h1>My leadership positions and activities.</h1>
          </div>         
-      </div> <!-- /section-intro -->
-
-      <div class="row activity">
-
+      </div>
+      <div class="row involvement">
          <div class="twelve columns main-col">
-
             <div class="row item">
-
                <div class="twelve columns">
-
-                  <h3>Founder/Co-President</h3>
-                  <p class="info">Stanford Transhumanist Association<span>&bull;</span> <em class="date">March 2018 - Present</em></p>
-
+                  <h3>Marjory Stoneman Douglas Coding Club</h3>
+                  <p class="info">Game Design Teacher<span> - </span> <em class="date">August 2019 - May 2020</em></p>
                   <p>
-                  Organized executive board members & meeting. <br>
-                  Designed STA discussion event posters. <br>
-                  Took record of STA meeting & discussion. <br>
-                  Recruited Stanford students into club members. 
+                  Organized game development classes for 20+ students. <br>
+                  Taught Python, JavaScript, and GML. <br>
+                  Recruited students into members of my class. 
                   </p>
-
                </div>
-
-            </div> <!-- item end -->
-
+            </div>
             <div class="row item">
-
                <div class="twelve columns">
-
-                  <h3>Webmaster</h3>
-                  <p class="info">Omicron Charter, Sigma Psi Zeta<span>&bull;</span> <em class="date">January 2018 - Present </em></p>
-
+                  <h3>Chabad of Parkland</h3>
+                  <p class="info">Hebrew Teacher<span> - </span> <em class="date">August 2016 - May 2020</em></p>
                   <p>
-                  Ran homepage for the biggest Asian interest sorority in campus. <br>
-                  Publicized the organization's activity, redesigned user interface that doubled website traffic.<br>
-                  <a href="https://stanfordsyz.weebly.com/" target="_blank">Sigma Psi Zeta</a>
+                  Instructed over 25+ students in Hebrew Fundamentals with a passing rate of 98%. <br>
+                  Facilitated daily functions throughout the educational program for 300+ students. <br>
                   </p>
-
                </div>
-
-            </div> <!-- item end -->
-
-            <div class="row item">
-
-               <div class="twelve columns">
-
-                  <h3>Student Associate</h3>
-                  <p class="info">Lane Library, Stanford Medical Center<span>&bull;</span> <em class="date">March 2018 - Present</em></p>
-
-                  <p>
-                  Helped manage 10000+ books through returning, lending, and shelving books. <br>
-                  Assisted library users at the front desk. <br>
-                  Participated in library user statistics through Google Docs. 
-                  </p>
-
-               </div>
-
-            </div> <!-- item end -->
-
-            <div class="row item">
-
-               <div class="twelve columns">
-
-                  <h3>Community Director</h3>
-                  <p class="info">Biology Interdisplinary Open Maker Environment, Stanford<span>&bull;</span> <em class="date">March 2003</em></p>
-
-                  <p>
-                  Fostered bioengineering community on campus through designing club tshirt. <br>
-                  Organized the first Stanford Bioengineering Hackathon supported by Genspace, Opentrons, FBI, and other biotech companies<br>
-                  <a href="https://stanfordbiome.org/" target="_blank">BIOME</a>
-                  </p>
-
-               </div>
-
-            </div> <!-- item end -->
-
-            <div class="row item">
-
-               <div class="twelve columns">
-
-                  <h3>Center player</h3>
-                  <p class="info">Stanford Intramural Women Basketball Team<span>&bull;</span> <em class="date">September 2016 - March 2017</em></p>
-
-                  <p>
-                  Participated in rigorous basketball training twice every week. <br>
-                  Played in varsity basketball team during high school. 
-                  </p>
-
-               </div>
-
-            </div> <!-- item end -->
-
-         </div> <!-- main-col end -->
-
-      </div> <!-- End Education -->
-      
-   </section> <!-- /activities --> 
-
-   <!-- contact
-   ================================================== -->
+            </div>
+         </div>
+      </div>   
+   </section>
    <section id="contact">
-
       <div class="row section-intro">
-         <div class="col-twelve">
-
+         <div class="colA">
             <h5>Contact</h5>
             <h1>Connect With Me!</h1>
-
          </div> 
-      </div> <!-- /section-intro -->
-
+      </div>
       <div class="row contact-info">
-
-         <div class="col-four tab-full">
-
+         <div class="colC tab-full">
             <div class="icon">
                <i class="fa fa-location-arrow"></i>
             </div>
-
             <h5>Discord</h5>
-
             <p>
             JohnGlass#1711
             </p>
-
          </div>
-
-         <div class="col-four tab-full collapse">
-
+         <div class="colC tab-full collapse">
             <div class="icon">
                <i class="icon-mail"></i>
             </div>
-
             <h5>Email</h5>
-
             <p>johnglass0904@gmail.com<br>         
             </p>
-
          </div>
-	      
-	 <div class="col-four tab-full collapse">
-
+	 <div class="colC tab-full collapse">
             <div class="icon">
                <i class="fa fa-linkedin"></i>
             </div>
-
             <h5>LinkedIn</h5>
             <a href="https://www.linkedin.com/in/john-g-6860931a6/" target="_blank">Connect</a>
-
          </div>
-         
-      </div> <!-- /contact-info -->
-      
-   </section> <!-- /contact -->
-
-
-   <!-- footer
-   ================================================== -->
+      </div> 
+   </section> 
    <footer>
-
       <div class="row">
-
          <div class="twelve columns">
             <a>Created and Designed by John Glass</a>
-
-
-
          </div>
-
-         <div id="go-top"><a class="smoothscroll" title="Back to Top" href="#home"><i class="icon-up-open"></i></a></div>
-
+         <div id="go-top"><a class="ss" title="Back to Top" href="#home"><i class="icon-up-open"></i></a></div>
       </div>
-
    </footer>
-
-   <!-- Java Script
-   ================================================== -->
    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
    <script>window.jQuery || document.write('<script src="js/jquery-1.10.2.min.js"><\/script>')</script>
    <script type="text/javascript" src="js/jquery-migrate-1.2.1.min.js"></script>
-
    <script src="js/jquery.flexslider.js"></script>
    <script src="js/waypoints.js"></script>
    <script src="js/jquery.fittext.js"></script>
    <script src="js/magnific-popup.js"></script>
    <script src="js/init.js"></script>
-
 </body>
-
 </html>
-<!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
-<!-- * * * * * * * * * * * The content above * * * * * * * * * * * -->
-<!-- * * * * * * * * * * is only a placeholder * * * * * * * * * * -->
-<!-- * * * * * * * * * * and can be replaced. * * * * * * * * * * * -->
-<!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
-<!-- * * * * * * * * * * End of Placeholder * * * * * * * * * * * -->
-<!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
-
 <router-outlet></router-outlet>

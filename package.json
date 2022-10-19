@@ -1,5 +1,6 @@
 {
   "dependencies": {
-    "@angular/youtube-player": "^14.2.5"
+    "@angular/youtube-player": "^14.2.5",
+    "jquery": "^3.6.1"
   }
 }
