@@ -339,9 +339,12 @@ li { line-height: 18px; margin-bottom: 12px; }
  .colA {
     width: 100%;
     padding: 0 20px;
+    
  }
 
  .colB {
+    display: inline-block;
+    vertical-align: top;
     width: 50%;
     padding: 0 20px;
  }
@@ -349,7 +352,8 @@ li { line-height: 18px; margin-bottom: 12px; }
  .colC {
     width: 33.33333%;
     padding: 0 20px; 
-}
+    display: inline-block;
+   }
 
 @media screen and (max-width:1024px) {
     .row .row {
@@ -655,9 +659,11 @@ body { background: #A8D0E6; }
   }
   
   .button-section {
+   
     text-align: center;
   }
   .button-section .button {
+   margin-left: 15px;
     width: 250px;
   }
   .button-section [class*="col-"] .button:first-child {
@@ -787,6 +793,8 @@ body { background: #A8D0E6; }
  
     background: #F76C6C repeat;
  }
+
+
  .portfolio-item .item-wrap .link-icon {
     display: block;
     color: #fff;
@@ -838,3 +846,37 @@ body { background: #A8D0E6; }
  }
  
   
+ #contact {
+   background: #151515;
+   padding-top: 12rem;
+   padding-bottom: 7.2rem;
+ }
+ #contact .section-intro h1 {
+   color: white;
+ }
+ #contact .section-intro h5 {
+   color: #F06000;
+ }
+ #contact .section-intro p {
+   color: rgba(255, 255, 255, 0.7);
+ }
+ 
+ .contact-info {
+   margin: 4.8rem auto 0;
+   font-family: "poppins-regular", sans-serif;
+   font-size: 1.5rem;
+   text-align: center;
+ }
+ .contact-info .collapse {
+   padding: 0;
+ }
+ .contact-info .icon {
+   margin-bottom: 2.1rem;
+ }
+ .contact-info .icon i {
+   font-size: 4.2rem;
+   color: #FFFFFF;
+ }
+ .contact-info h5 {
+   color: #F06000;
+ }
