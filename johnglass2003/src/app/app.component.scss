@@ -1,6 +1,6 @@
 @font-face {
     font-family: fSB;
-    src: url(Figtree/static/Figtree-SemiBold.ttf);
+    src: url(C:/Users/johng/OneDrive/Documents/GitHub/John-Glass.github.io/johnglass2003/src/app/Figtree/static/Figtree-SemiBold.ttf);
 }
 
 html, body, div, h1, h2, h3, h4 ,h5, nav, section, ul, li, header, strong, span
@@ -92,7 +92,7 @@ li { line-height: 18px; margin-bottom: 12px; }
     padding: 0;
  }
  .pagination .page-numbers {
-    font: 15px/18px 'opensans-bold', sans-serif;
+    font: 15px/18px fSB, sans-serif;
     display: inline-block;
     padding: 6px 10px;
     margin-right: 3px;
@@ -139,7 +139,7 @@ li { line-height: 18px; margin-bottom: 12px; }
  input[type="submit"],
  input[type="reset"],
  input[type="button"] {
-    font: 16px/30px 'opensans-bold', sans-serif;
+    font: 16px/30px fSB, sans-serif;
     background: #24305E;
     display: inline-block;
      text-decoration: none;
